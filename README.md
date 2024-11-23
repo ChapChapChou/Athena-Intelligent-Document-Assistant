@@ -1,4 +1,4 @@
-# RAG_doc-pic_generate_chatbot
+# Athena: Intelligent Document Assistant
 
 ## 1. Project Overview
 A comprehensive chatbot solution that combines RAG (Retrieval-Augmented Generation) search capabilities with text-to-image generation. The system is designed to be deployed as a web service on AWS using Bedrock.
