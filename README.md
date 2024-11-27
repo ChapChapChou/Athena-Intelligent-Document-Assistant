@@ -19,6 +19,11 @@ git clone
 ```bash
 pip install -r requirements.txt
 ```
+3. Set AWS credentials:
+```bash
+chmod 777 set_env.sh
+./set_env.sh
+```
 ## Usage
 
 —— Document Processing
@@ -49,5 +54,7 @@ This will automatically analyze your PDFs and create a relevant cover image.
 ├── chat.py         # Chat interface
 ├── init_vectorstore.py    # Document processor
 ├── generate_pic.py # Cover generator
+├── tranlate.py # translate text
+├── set_env.sh # set aws credentials
 └── requirements.txt
 ```
